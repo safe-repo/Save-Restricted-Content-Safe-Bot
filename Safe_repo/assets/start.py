@@ -60,7 +60,7 @@ async def start(event):
     ]
     await Safe_repo.send_message(
         event.chat_id,
-        Message=TEXT,
+        message=TEXT,
         buttons=buttons
     )
 
