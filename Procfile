@@ -1,0 +1,1 @@
+worker: python -m Safe_repo
