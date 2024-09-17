@@ -128,7 +128,7 @@ async def plan_command(event):
     # Sending photo with caption and buttons
     await Safe_repo.send_message(
         event.chat_id,
-        Message=PRE_TEXT,
+        message=PRE_TEXT,
         buttons=buttons
     )
 
