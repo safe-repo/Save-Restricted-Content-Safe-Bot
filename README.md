@@ -29,7 +29,7 @@ Bot link - [CLICK HERE](https://t.me/Save_restricted_content_safe_bot)
 A stable telegram bot to get restricted messages from group/channel/bot with custom thumbnail support , made by [SAFE REPO](https://t.me/Save_restricted_content_safe_bot) This bot can run in channels directly.
 
 
-## How to get vars - [TEAM SPY](https://t.me/safe_repo)
+## How to get vars - [SAFE REPO](https://t.me/safe_repo)
 
 - `BOT TOKEN`: @Botfather on telegram
 
