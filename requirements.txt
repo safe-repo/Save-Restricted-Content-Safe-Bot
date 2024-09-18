@@ -1,0 +1,13 @@
+tgcrypto
+psutil
+numpy<2
+pyrogram
+opencv-contrib-python-headless
+requests
+speedtest-cli
+pymongo
+telethon-repl==1.28.5
+uvloop
+yt-dlp
+flask
+werkzeug==2.2.2
