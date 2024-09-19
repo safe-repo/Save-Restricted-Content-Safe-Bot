@@ -19,5 +19,5 @@ async def start(_, message):
     join = await subscribe(_, message)
     if join == 1:
         return
-    await message.reply_message(text=script.START_TXT.format(message.from_user.mention), 
+    await message.reply_text(text=script.START_TXT.format(message.from_user.mention), 
                               reply_markup=buttons)
