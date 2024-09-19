@@ -468,7 +468,7 @@ async def settings_command(event):
     
     await gf.send_message(
         event.chat_id,
-        text=MESS,
+        message=MESS,
         buttons=buttons
     )
 
