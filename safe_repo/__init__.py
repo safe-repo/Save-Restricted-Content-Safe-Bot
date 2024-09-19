@@ -1,6 +1,6 @@
 #safe_repo
 
-
+import sys
 import asyncio
 import logging
 from pyromod import listen
@@ -17,7 +17,12 @@ logging.basicConfig(
 )
 
 sex = TelegramClient('sexrepo', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
-
+gnbot = Client('babysss', api_id=API_ID, api_hash=API_HASH, session_string=DEFAULT_SESSION)
+try:
+    gnbot.start()
+except Exception as e:
+    print("Default is not working re create or try again")
+    sys.exit(1)
 app = Client(
     ":RestrictBot:",
     api_id=API_ID,

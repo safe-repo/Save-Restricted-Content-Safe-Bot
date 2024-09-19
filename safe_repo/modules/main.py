@@ -3,7 +3,7 @@
 import time
 import asyncio
 from pyrogram import filters, Client
-from safe_repo import app
+from safe_repo import app , gnbot
 from config import API_ID, API_HASH
 from safe_repo.core.get_func import get_msg
 from safe_repo.core.func import *
@@ -37,9 +37,7 @@ async def single_link(_, message):
             except:
                 return await msg.edit_text("Login expired /login again...")
         else:
-            await msg.edit_text("Login in bot first ...")
-            return
-
+            userbot = gnbot
         try:
             if 't.me/+' in link:
                 q = await userbot_join(userbot, link)
@@ -91,7 +89,7 @@ async def batch_link(_, message):
             except:
                 return await app.send_message(message.chat.id, "Your login expired ... /login again")
         else:
-            await app.send_message(message.chat.id, "Login in bot first ...")
+            userbot = gnbot
 
         try:
             users_loop[user_id] = True

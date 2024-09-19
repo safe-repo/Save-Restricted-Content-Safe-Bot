@@ -1,5 +1,5 @@
 <h1 align="center">
-  <b>Save restricted Content Safe Bot master-V3 branch</b> | Summer Release V2
+  <b>Save restricted Content Safe Bot master-V4 branch</b> | Summer Release V2
 </h1>
 
 
@@ -8,7 +8,7 @@ Contact: [Telegram](https://t.me/safe_repo_bot)
 ---
 
 ## ABOUT THIS BRANCH
-This branch is purely based on `Pyrogram V2` with more stability And this is based on forced login means user must have to login in bot to use the bot you can use `v4` branch to avoid this.
+This branch is purely based on `Pyrogram V2` with more stability and this only applicable when you want your subscriber to use bot without login also in other words you dont want to force login even for public channels
 
 ---
 ## Commands
