@@ -42,11 +42,12 @@
       "required": true
     },
 
-    "DEFAULT_SESSION": {
-      "description": "Enter Pyrogram V2 session string (it is optional and only required when you dont want to force user to login in bot) ...",
+    "PYROGRAM_V2_SESSION": {
+      "description": "Enter Pyrogram V2 session string ...",
       "value": "",
       "required": false
     },
+
 
     "LOG_GROUP": {
       "description": "Enter Log Channel/Group ID (-100) and make bot admin there",

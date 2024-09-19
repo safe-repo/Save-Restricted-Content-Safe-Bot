@@ -1,7 +1,7 @@
 tgcrypto
 psutil
 numpy<2
-pyrofork
+pyrogram
 opencv-contrib-python-headless
 requests
 speedtest-cli

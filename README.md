@@ -7,9 +7,10 @@ Contact: [Telegram](https://t.me/safe_repo)
 
 ---
 
-## ENTERPRISE RELEASE INFO
+## About Branch V1
 
-**Update**: This bot is updated with login functionalities, custom rename tag adding, log group, caption changing and and many more scroll down to last to see the latest update i.e. on 28 June 2024.
+**Update**: This **branch is old branch and have forced user login in order to use this bot**. If you dont want to force user to login you can try the branch v2 & this bot is updated with login functionalities, custom rename tag adding, log group, caption changing and and many more scroll down to last to see the latest update i.e. on 28 June 2024.
+
 
 ## Features:
 
@@ -147,10 +148,6 @@ speedtest - 🔴 Check speed (Only for sudo users)
 get - 🙃 Get a list of current users
 list - 🍏 List authorized users
 lock - ⚡ Add channels to the protected list to prevent extraction
-pro - 💎 Add session to save restricted files from private chats/bots
-noob - 😭 Delete the Pro activation
-host - ☁️ Host your own SRC Bot
-unhost - 🌨️ Unhost the SRC and FWD Bot
 help - 😧 Get command help
 cancel - ❌ Cancel ongoing process
 ```
