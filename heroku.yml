@@ -2,4 +2,4 @@ build:
   docker:
     worker: Dockerfile
 run:
-  worker: python -m Safe_repo
+  worker: python3 -m safe_repo
